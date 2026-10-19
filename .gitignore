@@ -1,0 +1,40 @@
+# Configuration locale & clés d'API (CRITIQUE)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dépendances PHP (Composer)
+/vendor/
+
+# Logs et Fichiers temporaires
+*.log
+logs/
+tmp/
+temp/
+/cache/
+
+# Fichiers d'environnement système / OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Fichiers de configuration des éditeurs / IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Sauvegardes de base de données locales ou exports SQL
+*.sql
+*.sql.gz
+*.sqlite
+
+# Uploads utilisateur / Fichiers média générés en local
+/uploads/*
+!/uploads/.gitkeep
